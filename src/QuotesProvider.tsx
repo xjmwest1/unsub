@@ -1,6 +1,6 @@
 import React from 'react'
 import Quote from './Quote'
-import quotesJson from './quotes.json'
+import quotesJson from './assets/quotes.json'
 
 type QuotesInterface = {
   quotes: Array<Quote>,
