@@ -39,7 +39,7 @@ class QuoteList extends React.Component<{}, QuoteListState> {
         <li className={quoteContainerClasses.join(' ')} key={index}>
           <a className="Quote-list-quote-click-container" onClick={() => this.clickQuote(index)}>
             {this.renderQuoteParts(quote, index)}
-            {isExpanded && quote.extraHtml && <span dangerouslySetInnerHTML={{ __html: quote.extraHtml }} />}
+            {quote.extraHtml && <span dangerouslySetInnerHTML={{ __html: quote.extraHtml }} />}
           </a>
         </li>
       )
