@@ -22,6 +22,7 @@ class QuoteList extends React.Component<{}, QuoteListState> {
         <div className="Quote-list-season-episode">{seasonEpisode}</div>
         <div className="Quote-list-quotee">{quote.quotee}</div>
         <div className="Quote-list-quote-text">{quoteText}</div>
+        <div className="Quote-list-narrator">{quote.narrator}</div>
       </Fragment>
     )
   }
@@ -51,8 +52,6 @@ class QuoteList extends React.Component<{}, QuoteListState> {
 
     this.setState({
       expandedQuoteIndex: newIndex
-    }, () => {
-      document.getElementsByTagName('BODY')[0].className += 'notransition'
     })
   }
 
