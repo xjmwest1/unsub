@@ -63,7 +63,7 @@ class QuotesProvider extends React.Component<{}, QuotesInterface> {
     return {
       quote: 'Happy 30th birthday to my beautiful wife.',
       quotee: 'Your Husband',
-      narrator: 'John West',
+      narrator: 'John',
       season: 30,
       episode: 1,
       episodeName: 'Happy Birthday',

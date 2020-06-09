@@ -10,10 +10,11 @@ html {
   font-size: calc(10px + 2vmin);
   font-family: Tahoma, Geneva, sans-serif;
   color: white;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
   max-width: 30em;
   margin: 0 auto;
+  margin-bottom: 10em;
 }
 
 .App-logo {
